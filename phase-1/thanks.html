@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Pedalinx</title>
+<link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+<link href="assets/css/reset.css" rel="stylesheet" type="text/css">
+<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+<link href="assets/css/style-mobile.css" rel="stylesheet" type="text/css">
+<script type='text/javascript' src='assets/javascript/jquery-1.11.0.min.js'></script>
+<script type='text/javascript' src='assets/javascript/jquery.modal.js'></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.modalLink').modal({
+      trigger: '.modalLink',
+      olay:'div.overlay',
+      modals:'div.modal',
+      animationEffect: 'fadeIn',
+      animationSpeed: 400,
+      opacity: 0.8,
+      openOnLoad: false,
+      docClose: true,
+      closeByEscape: true,
+      moveOnScroll: true,
+      resizeWindow: true,
+      close:'.closeBtn'
+    });
+    
+  });
+</script>
+</head>
+<body class="thanks">
+  <div id="logo-lockup"></div>
+  <div id="wrapper">
+    <div id="thank-you">
+      <img src="assets/images/thank-you.png"/>
+      <img src="assets/images/bike-feature.png" class="thanks-bike"/>
+      <p>don’t forget, our BIKE SHOP opens march 22,<br>and is located at 3221 Derry Road West in <br>Mississauga. so please come and check us out!</p>
+    </div>
+  </div>
+</body>
+</html>

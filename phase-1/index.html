@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Pedalinx</title>
+<link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+<link href="assets/css/reset.css" rel="stylesheet" type="text/css">
+<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+<link href="assets/css/style-mobile.css" rel="stylesheet" type="text/css">
+<script type='text/javascript' src='assets/javascript/jquery-1.11.0.min.js'></script>
+<script type='text/javascript' src='assets/javascript/jquery.modal.js'></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.modalLink').modal({
+      trigger: '.modalLink',
+      olay:'div.overlay',
+      modals:'div.modal',
+      animationEffect: 'fadeIn',
+      animationSpeed: 400,
+      opacity: 0.8,
+      openOnLoad: false,
+      docClose: true,
+      closeByEscape: true,
+      moveOnScroll: true,
+      resizeWindow: true,
+      close:'.closeBtn'
+    });
+    
+  });
+</script>
+</head>
+<body class="index">
+  <div id="logo-lockup"></div>
+  <div id="wrapper">
+    <div id="index-callout">
+      <h1>BIKES • SERVICE • ACCESSORIES • APPAREL • KNOWLEDGE • PASSION</h1>
+      <img src="assets/images/index-title.png" width="669" height="285" alt="" class="title"/>
+      <div class="divide"></div>
+      <h2>TO CELEBRATE, WE ARE<br>GIVING AWAY A FREE BIKE!</h2>
+      <a href="registration.html"><img src="assets/images/enter-btn.jpg" width="220" height="51" alt=""/></a>
+      <h3>3221 Derry Road West<br>Mississauga, Ontario</h3>
+    </div>
+  </div>
+</body>
+</html>

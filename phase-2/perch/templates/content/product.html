@@ -1,0 +1,12 @@
+<div class='product <perch:content id="sale_item" type="checkbox" label="Sale item" value="sale" />' data-description='<perch:content id="product_description" type="textarea" label="Product Description:" markdown="true" editor="markitup"/>' data-details='<perch:content id="product_details" type="textarea" label="Product Details:" markdown="true" editor="markitup"/>' data-name='<perch:content id="product_name" type="text" label="Product Name:" required="true" title="true" />' data-cost='<perch:content id="product_cost" type="text" label="Product Cost:" required="true" title="true" />' data-image='<perch:content id="product_image" type="image" label="product_image" required="true" width="1500" height="910" crop="true" />' data-image-alt='<perch:content id="product_image_alt" type="text" label="Image Description" title="true" />'>
+  <div class='photo'>
+    <img src='<perch:content id="product_image" type="image" label="product_image" width="1500" height="910" crop="true" required="true"/>' alt='<perch:content id="product_image_alt" type="text" label="Image Description"/>'>
+  </div>
+  <div class='details'>
+    <div class="name"><perch:content id="product_name" type="text" label="Product Name:" required="true" title="true" /></div>
+    <span>
+      <perch:content id="product_cost" type="text" label="Product Cost:" required="true" title="true" />
+    </span>
+  </div>
+</div>
+

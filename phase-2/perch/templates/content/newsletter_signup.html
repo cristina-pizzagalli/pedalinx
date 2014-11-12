@@ -1,0 +1,13 @@
+<perch:form id="email-registrations" method="post" app="perch_forms">
+
+	<perch:input type="email" id="email" required="true" label="Email" placeholder="you@company.com" />
+
+	<perch:input type="submit" id="submit" value="Submit" />
+
+	<perch:error for="email" type="required"><div class="error">Please enter your email address</div></perch:error>
+	<perch:error for="email" type="format"><div class="error">Please check your email address</div></perch:error>
+
+	<perch:success>
+		<perch:content id="success" type="textarea" label="Thank you message" textile="true" editor="markitup" />
+	</perch:success>
+</perch:form>

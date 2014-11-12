@@ -1,0 +1,1 @@
+[09-Aug-2014 00:45:03 UTC] PHP Fatal error:  Class 'PerchSession' not found in /home/pedalixadmin/public_html/staging/perch/core/inc/keepalive.php on line 5

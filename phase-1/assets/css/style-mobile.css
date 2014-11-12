@@ -1,0 +1,249 @@
+@charset "UTF-8";
+@media (max-width: 1200px) {
+  #logo-lockup {
+    background-size: 100%;
+  }
+  body.index #logo-lockup {
+    background-size: 100%;
+  }
+  #bike-feature {
+    width: 60%;
+    background-size:60%;
+  }
+  #thank-you img {
+    width: 100%;
+  }
+  #index-callout img.title {
+    width: 600px;
+    float: right;
+  }
+}
+@media (max-width: 850px) {
+  body.index {
+    background: #4970b1 url(../images/background-index-mobile.jpg) no-repeat bottom center;
+    background-size: 100%;
+  }
+  #logo-lockup {
+    display: block;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 218px;
+    background: url(../images/mobile-header.png) no-repeat left top;
+  }
+  body.index #logo-lockup {
+    display: block;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 218px;
+    background: url(../images/mobile-header-index.jpg) no-repeat left top;
+  }
+  #bike-feature {
+    display: block;
+    float: none;
+    width: 90%;
+    max-width: 500px;
+    height: 300px;
+    padding: 30px 0px 0px 0px;
+    background:url(../images/bike-feature.png) no-repeat 5% 80%;
+    background-size: 40%;
+    text-align: right;
+    color: #051a34;
+    margin: 0px auto;
+  }
+  #bike-feature h1 {
+    font-size: 26px;
+    margin: 0px 0px 20px 0px;
+  }
+  #bike-feature p {
+    font-size: 13px;
+    margin: 10px 0px;
+  }
+  #thank-you {
+    float: none;
+    margin: 40px auto;
+    padding: 0px;
+    width: 90%;
+    max-width: 400px;
+    text-align: right;
+  }
+  #thank-you img.thanks-bike {  
+    margin: 30px 0px;
+  }
+  #thank-you p {
+    font-size: 18px;
+    line-height: 20px;
+    margin: 10px 0px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  #thank-you p br {
+    display: none;
+  }
+  #reg-form {
+    display: block;
+    float: none;
+    width: 90%;
+    max-width: 500px;
+    margin: 0px auto;
+  }
+  #reg-form .field {
+    display: block;
+    clear: both;
+    margin: 10px 0px 0px 0px;
+  }
+  #reg-form label {
+    display: block;
+    float: none;
+    margin: 0px;
+    font-size: 18px;
+    width: 100%;
+    text-align: left;
+  }
+  #reg-form input {
+    width: 98%;
+    padding: 10px 0px;
+  }
+  #reg-form .field-short label.short {
+    width: 98%;
+  }
+  #reg-form .field-short input.mid {
+    width: 98%;
+    float: none;
+  }
+  #reg-form .field-short input.long {
+    width: 98%;
+    float: none;
+  }
+  #reg-form .field-short input.short {
+    width: 98%;
+    float: none;
+  }
+  #reg-form .terms-accept {
+    float: right;
+    width: 120px;
+    font-size: 11px;
+    text-align: right;
+    margin: 28px 10px 0px 0px;
+  }
+  #reg-form .terms-accept a{
+    color: #051a34;
+  }
+  #reg-form input[type='submit'] {
+    display: block;
+    width: 155px;
+    height: 51px;
+    border: none;
+    float: right;
+    margin: 20px 0px 40px 0px;
+    background: url(../images/submit-btn.png);
+    cursor: pointer;
+    cursor: hand;
+    text-indent: -9999px;
+  }
+  .overlay{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: none;
+  }
+  .modal{
+    display: none;
+    background:#ffffff;
+    padding:0 20px 20px;
+    overflow:auto;
+    z-index:1001;
+    position:absolute;
+    width: 80%;
+    min-height: 260px;
+  }
+  .close {
+    text-align: right;
+    margin: 20px 0px;  
+  }
+  .modal-scroll {
+    display: block;
+    height: 260px;
+    overflow:scroll;
+    color: #051a34;
+  }
+  .modal-scroll h1 {
+    font-size: 24px;
+    margin: 10px 0px;
+  }
+  .modal-scroll h2 {
+    font-size: 20px;
+    margin: 10px 0px 30px 0px;
+  }
+  .modal-scroll h3 {
+    font-size: 18px;
+    margin: 20px 0px 10px 0px;
+  }
+  .modal-scroll p {
+    font-size: 14px;
+    line-height:18px;
+    margin: 10px 0px;
+  }
+  #index-callout {
+    display: block;
+    width: 90%;
+    max-width: 500px;
+    float: none;
+    clear: both;
+    margin: 0px auto 0px auto;
+  }
+  #index-callout img.title {
+    width: 100%;
+    height: auto;
+    margin: 0px 0px 20px 0px;
+  }
+  #index-callout h1 {
+    display: block;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    clear: both;
+    margin: 40px 0px 20px 0px;
+    text-shadow: 1px 1px 2px #666666;
+   }
+  #index-callout h2 {
+    display: block;
+    text-align: center;
+    color: #ffffff;
+    clear: both;
+    font-size: 30px;
+    margin: 20px 0px 10px 0px;
+    text-shadow: 1px 1px 2px #666666;
+  }
+  #index-callout .divide {
+    display: block;
+    width: 90%;
+    float: none;
+    clear:both;
+    border-top: 2px dotted #ffffff;
+    height: 1px;
+    margin: 25px auto 35px auto;
+  }
+  #index-callout h3 {
+    display: block;
+    text-align: center;
+    clear: both;
+    color: #ffffff;
+    font-size: 20px;
+    margin: 60px 0px 10px 0px;
+    text-shadow: 1px 1px 2px #666666;
+  }
+  #index-callout a {
+    display: block;
+    float: none;
+    text-align: center;
+    margin: 20px auto 60px auto;
+  }
+  #index-callout a:hover {
+    box-shadow: none;
+  }
+}

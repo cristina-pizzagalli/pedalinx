@@ -1,0 +1,194 @@
+@media screen and (max-width: 860px) {
+  .brands .wrapper ul li img {
+    width: 70%;
+    height: auto; } }
+@media screen and (max-width: 730px) {
+  header {
+    height: 360px;
+    margin: 0px 0px 20px 0px; }
+    header .wrapper {
+      height: 360px; }
+    header .header-keyline {
+      height: 360px;
+      background: url(../images/header-bg.png) repeat-x 0px -10px; }
+    header #header-image {
+      top: 160px;
+      height: 200px; }
+    header .logo {
+      width: 100%;
+      height: 81px;
+      margin: 15px 0px 0px 0px;
+      text-align: center; }
+    header h1 {
+      position: relative;
+      z-index: 9;
+      display: block;
+      color: #ffffff;
+      text-shadow: 2px 2px 8px #666666;
+      padding: 20px 0px 0px 0px;
+      font-size: 96px;
+      text-align: center; }
+    header nav {
+      position: relative;
+      z-index: 10;
+      float: none;
+      width: 300px;
+      margin: 0px auto; }
+      header nav ul li {
+        width: 25%;
+        text-align: center; }
+        header nav ul li a {
+          font-size: 14px;
+          padding: 0px 3px;
+          margin: 0px 3px; }
+
+  #nav {
+    list-style: none;
+    margin-bottom: 10px;
+    float: left;
+    width: 100%; }
+    #nav li .product-listing {
+      width: 300px;
+      padding: 20px 10px 20px 10px;
+      background: #051a34 url(../images/product-nav-mobile.png) no-repeat 0px 0px; }
+      #nav li .product-listing .bikes, #nav li .product-listing .helmets, #nav li .product-listing .apparel {
+        display: block;
+        width: 33%;
+        float: left; }
+        #nav li .product-listing .bikes .header, #nav li .product-listing .helmets .header, #nav li .product-listing .apparel .header {
+          font-size: 18px; }
+        #nav li .product-listing .bikes .link a, #nav li .product-listing .helmets .link a, #nav li .product-listing .apparel .link a {
+          font-size: 15px;
+          line-height: 15px; }
+
+  #nav li:hover ul {
+    left: -5px; }
+
+  footer .product-listing {
+    float: none;
+    width: 100%;
+    display: block; }
+    footer .product-listing .bikes, footer .product-listing .helmets, footer .product-listing .apparel {
+      padding: 0px 0px;
+      width: 33%; }
+      footer .product-listing .bikes .header, footer .product-listing .helmets .header, footer .product-listing .apparel .header {
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 20px;
+        margin: 0px 0px 10px 20px; }
+      footer .product-listing .bikes .link a, footer .product-listing .helmets .link a, footer .product-listing .apparel .link a {
+        margin: 0px 0px 0px 20px; }
+    footer .product-listing .apparel {
+      border-right: none; }
+  footer .newsletter {
+    display: block;
+    float: none;
+    width: 100%;
+    text-align: center;
+    padding: 0px 0px 20px 0px; }
+    footer .newsletter .social {
+      width: 180px;
+      color: #ffffff;
+      text-transform: uppercase;
+      font-size: 16px;
+      line-height: 30px;
+      margin: 20px auto; }
+      footer .newsletter .social img {
+        float: right;
+        margin: 0px 0px 0px 10px; }
+  footer .copyright {
+    text-align: center;
+    padding: 0px 0px 20px 0px; }
+  footer.home {
+    position: relative; }
+
+  #home-bg {
+    position: fixed;
+    background-position: center bottom; }
+
+  .wrapper-home {
+    position: relative;
+    z-index: 2;
+    text-align: center; }
+    .wrapper-home h2 {
+      position: relative;
+      z-index: 9;
+      clear: both;
+      margin: 0px;
+      width: 100%;
+      display: block;
+      color: #ffffff;
+      text-shadow: 2px 2px 8px #000;
+      padding: 10px 0px 40px 0px;
+      text-align: center;
+      font-family: 'Six Caps', sans-serif;
+      font-size: 80px;
+      line-height: 80px;
+      text-transform: uppercase; }
+    .wrapper-home a.home-white {
+      background: rgba(0, 0, 0, 0.1);
+      border: 3px solid #fff;
+      margin: 10px 0px 0px 0px;
+      font-size: 20px;
+      padding: 10px 20px;
+      text-transform: uppercase;
+      text-shadow: 2px 2px 4px #000;
+      color: #ffffff;
+      text-align: center;
+      text-decoration: none; }
+      .wrapper-home a.home-white:hover {
+        background: #4080c7; }
+
+  footer.home {
+    background: none; }
+    footer.home .newsletter {
+      padding: 80px 0px 0px 0px; }
+
+  .product-wrapper .product {
+    width: 50%; }
+    .product-wrapper .product .details {
+      width: 95%; }
+    .product-wrapper .product.sale .details {
+      background: url(../images/sale.png) no-repeat bottom right;
+      background-size: 30px; }
+
+  .content .wrapper .left {
+    width: 100%;
+    float: none; }
+  .content .wrapper .right {
+    width: 100%;
+    float: none;
+    margin: 20px 0px 0px 0px; }
+    
+
+  .content .wrapper.contact .left {
+    width: 100%; }
+  .content .wrapper.contact .right {
+    width: 100%; }
+
+  .content .wrapper.about .left {
+    width: 100%; }
+    .content .wrapper.about .left h3 {
+      padding: 0px 0px 0px 0px; }
+  .content .wrapper.about .right {
+    width: 100%; }
+  .content .wrapper.about .staff {
+    padding: 0px 0px; }
+    .content .wrapper.about .staff .bio {
+      width: 100%;
+      float: none; }
+      .content .wrapper.about .staff .bio p {
+        padding: 10px 0px 10px 0px; }
+        .content .wrapper.services .right {
+          width: 100%;
+          }
+
+  .brands .wrapper ul li {
+    width: 50%; }
+    .brands .wrapper ul li img {
+      width: auto;
+      height: auto; } }
+@media screen and (max-width: 450px) {
+  .brands .wrapper ul li img {
+    width: 70%;
+    height: auto; } }

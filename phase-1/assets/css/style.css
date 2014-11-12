@@ -1,0 +1,249 @@
+@charset "UTF-8";
+body, html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Abel', sans-serif;
+}
+.clear {
+  display: block;
+  clear: both;
+}
+body.registration, body.thanks {
+  background: #ebebeb url(../images/background.jpg) no-repeat center right;
+  background-size: 100%;
+}
+body.index {
+  background: #ebebeb url(../images/background-index.jpg) no-repeat top right;
+  background-size: cover;
+}
+#wrapper {
+  display: block;
+  position: relative;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+}
+#logo-lockup {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: url(../images/logo-lockup.png) no-repeat left top;
+}
+body.index #logo-lockup {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: url(../images/logo-lockup-index.png) no-repeat left top;
+}
+#bike-feature {
+  display: block;
+  float: right;
+  width: 700px;
+  height: 300px;
+  padding: 30px;
+  background:url(../images/bike-feature.png) no-repeat left;
+  text-align: right;
+  color: #051a34;
+  margin: 0px auto;
+}
+#bike-feature h1 {
+  font-size: 26px;
+  margin: 0px 0px 20px 0px;
+}
+#bike-feature p {
+  font-size: 13px;
+  margin: 10px 0px;
+}
+#thank-you {
+  float: right;
+  padding: 50px;
+  width: 50%;
+  text-align: right;
+}
+#thank-you img.thanks-bike {  
+  margin: 30px 0px;
+}
+#thank-you p {
+  font-size: 21px;
+  line-height: 23px;
+  margin: 10px 0px;
+  text-transform: uppercase;
+}
+#reg-form {
+  display: block;
+  float: right;
+  width: 500px;
+}
+#reg-form .field {
+  display: block;
+  clear: both;
+  margin: 10px 0px;
+}
+#reg-form label {
+  display: block;
+  float: left;
+  width: 140px;
+  line-height: 50px;
+  margin: 0px 5px 0px 0px;
+  font-size: 24px;
+  color: #051a34;
+  text-align: right;
+  text-transform: uppercase;
+}
+#reg-form input {
+  padding: 10px;
+  color: #505050;
+  width: 300px;
+  font-size: 16px;
+  border: 3px solid #d1d8e3;
+  border-radius: 5px;
+  box-shadow: inset 1px 1px 1px #bfbfbf;
+}
+#reg-form .field-short label.short {
+  width: 120px;
+}
+#reg-form .field-short label.shorter {
+  width: 70px;
+}
+#reg-form .field-short input.long {
+  width: 120px;
+  float: left;
+}
+#reg-form .field-short input.short {
+  width: 30px;
+  float: left;
+  margin: 0px 0px 10px 0px;
+}
+#reg-form .field-short input.mid {
+  width: 100px;
+  float: left;
+}
+#reg-form .terms-accept {
+  float: right;
+  width: 150px;
+  font-size: 14px;
+  text-align: right;
+  margin: 5px 20px 0px 0px;
+}
+#reg-form .terms-accept a{
+  color: #051a34;
+}
+#reg-form .terms-accept a:hover{
+  color: #f46a30;
+}
+#reg-form input[type='submit'] {
+  display: block;
+  width: 155px;
+  height: 51px;
+  border: none;
+  border-radius: 0px;
+  float: right;
+  margin: 0px 30px 30px 0px;
+  background: url(../images/submit-btn.png);
+  cursor: pointer;
+  cursor: hand;
+  text-indent: -9999px;
+}
+#reg-form input[type='submit']:hover {
+  box-shadow: 2px 2px 4px #666666;
+}
+.overlay{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: none;
+}
+.modal{
+  display: none;
+  background:#ffffff;
+  padding:0 20px 20px;
+  overflow:auto;
+  z-index:1001;
+  position:absolute;
+  width: 600px;
+  min-height: 400px;
+}
+.close {
+  text-align: right;
+  margin: 20px 0px;  
+}
+.modal-scroll {
+  display: block;
+  height: 400px;
+  overflow:scroll;
+  color: #051a34;
+}
+.modal-scroll h1 {
+  font-size: 24px;
+  margin: 10px 0px;
+}
+.modal-scroll h2 {
+  font-size: 20px;
+  margin: 10px 0px 30px 0px;
+}
+.modal-scroll h3 {
+  font-size: 18px;
+  margin: 20px 0px 10px 0px;
+}
+.modal-scroll p {
+  font-size: 14px;
+  line-height:18px;
+  margin: 10px 0px;
+}
+#index-callout {
+  display: block;
+  width: 669px;
+  float: right;
+  margin: 0px 40px 0px 0px;
+}
+#index-callout h1 {
+  display: block;
+  text-align: right;
+  color: #ffffff;
+  font-size: 20px;
+  clear: both;
+  margin: 60px 20px 0px 0px;
+  text-shadow: 1px 1px 2px #666666;
+ }
+#index-callout h2 {
+  display: block;
+  text-align: right;
+  color: #ffffff;
+  clear: both;
+  font-size: 40px;
+  margin: 20px 20px 10px 0px;
+  text-shadow: 1px 1px 2px #666666;
+}
+#index-callout .divide {
+  display: block;
+  width: 400px;
+  float: right;
+  border-top: 2px dotted #ffffff;
+  height: 1px;
+  margin: 25px 20px 35px 0px;
+}
+#index-callout h3 {
+  display: block;
+  text-align: right;
+  clear: both;
+  color: #ffffff;
+  font-size: 20px;
+  margin: 60px 20px 10px 0px;
+  text-shadow: 1px 1px 2px #666666;
+}
+#index-callout a {
+  display: block;
+  float: right;
+  margin: 20px 20px 60px 0px;
+}
+#index-callout a:hover {
+  box-shadow: 2px 2px 6px #000000;
+}
+ 
